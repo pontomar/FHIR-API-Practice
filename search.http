@@ -1,0 +1,3 @@
+GET http://hapi.fhir.org/baseR4/Observation?subject=Patient/45746662
+Content-Type:application/fhir+json 
+Accept: application/fhir+json 

@@ -1,0 +1,40 @@
+POST http://hapi.fhir.org/baseR4/Patient HTTP/1.1
+Content-Type: application/fhir+json
+Accept: application/fhir+json 
+
+{
+    "resourceType" : "Patient",
+    "id" : "example",
+    "active" : true,
+    "name" : [{
+      "use" : "official",
+      "family" : "Muster",
+      "given" : ["Franz"]
+    }],
+    
+    "gender" : "male",
+    "birthDate" : "1967-10-02",
+    "_birthDate" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/patient-birthTime",
+        "valueDateTime" : "1967-10-02T04:00:00Z"
+      }]
+      },
+    
+    "deceasedBoolean" : false,
+    "address" : [{
+      "use" : "home",
+      "type" : "both",
+      "text" : "Leidensweg 10",
+      "line" : ["Something"],
+      "city" : "Specimendorf",
+      "state" : "Zürich",
+      "postalCode" : "9876",
+      "period" : {
+        "start" : "2020-12-25"
+      }
+    }]
+}
+  
+
+
