@@ -10,9 +10,10 @@ Getting acquainted with the FHIR standard and API interaction. This repository i
 
 ## What’s Included
 
-- `createProfile.http: A POST request payload to create a new Patient Resource on a FHIR server.
+- `createProfile.http`: A POST request payload to create a new Patient Resource on a FHIR server.
 - `observation.http`: A POST request payload to create a Body Weight Observation Resource on a FHIR server.
 - `search.http`: A GET request to search for Observations of a Patient with known Id.
+- `query.http`: A GET request to retrieve Patient data based on specified search parameters.
 
 ## FHIR Servers
 
