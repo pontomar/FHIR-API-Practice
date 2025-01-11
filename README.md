@@ -6,7 +6,7 @@ Getting acquainted with the FHIR standard and API interaction. This repository i
 
 - **[Visual Studio Code (VS Code)](https://code.visualstudio.com/)**: My go-to code editor for working on FHIR-related requests and projects.
 - **[REST Client VS Code Extension](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)**: Used for crafting and sending HTTP requests directly from VS Code.
-- **[FHIR Tools for VS Code Extension](https://marketplace.visualstudio.com/items?itemName=firely-dev.firely-vscode)**: A powerful extension for working with FHIR resources, including validation, autocomplete, and other productivity features.
+- **[FHIR Tools for VS Code Extension](https://marketplace.visualstudio.com/items?itemName=cqframework.fhir-json)**: A powerful extension for working with FHIR resources, including validation, autocomplete, and other productivity features.
 
 ## What’s Included
 
