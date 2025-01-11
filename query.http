@@ -1,0 +1,4 @@
+# Get a summary of all female patients born between 1960 and 1980
+
+GET http://hapi.fhir.org/baseR4/Patient?birthdate=ge1960-01-01&birthdate=le1980-12-31&gender=female&_summary=true
+accept:application/fhir+json 
